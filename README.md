@@ -49,7 +49,7 @@ This project documents how I built a **virtual cybersecurity lab** using Virtual
 
 Installed Oracle VirtualBox as the hypervisor and launched VirtualBox Manager.
 
-![VirtualBox Manager](images/1_Virtualbox_installed.png)
+![VirtualBox Manager](1_Virtualbox_installed.png)
 
 ---
 
@@ -66,7 +66,7 @@ IPv6:         Disabled
 
 A NAT Network lets multiple VMs talk to each other while still having outbound internet access, which is ideal for an attacker + target lab.
 
-![NAT Network settings](images/2_NET_Networks_setup.png)
+![NAT Network settings](2_NET_Networks_setup.png)
 
 ---
 
@@ -74,7 +74,7 @@ A NAT Network lets multiple VMs talk to each other while still having outbound i
 
 Imported the official Kali Linux VM into VirtualBox and set **Adapter 1** to *NAT Network* → `NatNetwork`.
 
-![Kali Linux desktop](images/3_kali_linux.png)
+![Kali Linux desktop](3_kali_linux.png)
 
 ---
 
@@ -91,7 +91,7 @@ DNS:        8.8.8.8
 
 A fixed IP makes the lab easier to document and reference in later exercises.
 
-![Kali network settings](images/4_kali_linux_network_settings.jpeg)
+![Kali network settings](4_kali_linux_network_settings.jpeg)
 
 ---
 
